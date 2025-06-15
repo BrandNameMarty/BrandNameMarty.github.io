@@ -1,0 +1,60 @@
+:root {
+	--aluminum: #84878C;
+	--rust: #59201B;
+	--fadedLeather: #A6615B;
+	--offWhite: #e6e6e6;
+	--offBlack: #0D0D0D;
+}
+
+.background {
+	background-color: var(--offBlack);
+}
+
+.header_text {
+	margin-top: 10%;
+	width: 50%;
+	max-width: 75%;
+	font-family: 'Noto Sans Simplified Chinese', sans-serif;
+	font-weight: 500;
+	font-size: 5vw;
+	text-align: center;
+	margin: auto;
+	color: var(--offWhite);
+}
+
+.project_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5%;
+}
+
+.project_header {
+	font-family: 'Noto Sans Simplified Chinese', sans-serif;
+	font-weight: 300;
+	font-size: 4vw;
+	color: var(--aluminum);
+	text-align: center;
+}
+
+.project_subheader {
+	font-family: 'Noto Sans Simplified Chinese', sans-serif;
+	font-weight: 300;
+	font-size: 3vw;
+	color: var(--aluminum);
+	text-align: center;
+}
+
+.project_video {
+	width: 50vw;
+	display: inline-block;
+	//padding: 2%;
+}
+
+.video_header {
+	font-family: 'Noto Sans Simplified Chinese', sans-serif;
+	font-weight: 300;
+	font-size: 2vw;
+	color: var(--aluminum);
+	text-align: center;
+}
